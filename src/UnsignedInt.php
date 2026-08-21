@@ -15,8 +15,11 @@ final class UnsignedInt implements ToStringInterface, ComparableInterface
 	use ToStringTrait;
 	use StringComparableTrait;
 
-	/** @var int<0, max> */
+	/**
+	 * @var int<0, max>
+	 */
 	private int $value;
+
 	public function __construct(
 		int $value
 	) {
